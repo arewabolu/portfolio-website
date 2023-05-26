@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    color: white;
+}
+  
+.navbar {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+  
+.navbar a {
+    color: cornsilk;
+    text-decoration:solid;
+    margin-right: 10px;
+}
+  
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}  
+
+.name {
+    height:fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }  
+
+.intro2 {
+    /* height: calc(100vh - 90vh); Adjust height to exclude navbar */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}  
+
+.intro2 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: cornsilk;
+    text-decoration:solid;
+   /* margin-right: 10px;*/
+}  

@@ -2,13 +2,32 @@
     <html lang="en">
         <head>
             <meta charset="UTF-8">
-                <title>Test webpage</title>
+                <title>Arewas Webpage</title>
+                <link rel="stylesheet" type="text/css" href="/style/index.css">
         </head>
         <body>
-            <h1> {{.Name}}</h1>
-            <ul>
-                <li><a href="mailto:">{{.Email}}</a></li>
-                <li><a href="http://github.com/arewabolu">{{.Github}}</a></li>
-            </ul>
+            <div class="intro">     
+                   <p> Hi, I am <br>
+                   
+                </p>
+            </div>
+            <div class="intro">  
+                <h1>{{.Name}}</h1>
+            </div>
+               
+            <div class="intro2">
+                <p>You could contact me through: <a href="mailto:">{{.Email}}</a></p>
+            </div>
+            <div class="navbar">
+            
+              <p>Check out my github: 
+                <a href="http://github.com/arewabolu">
+                    <img src="data:image/png;base64,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" alt="github image" width="25" height="25">
+                    {{.Github}}
+                </a>
+            </p>
+            
+            </div>
+           
         </body>
 </html>
